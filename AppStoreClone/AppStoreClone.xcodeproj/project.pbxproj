@@ -15,6 +15,8 @@
 		75634F292868BBB3008AD2E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75634F282868BBB3008AD2E3 /* Constants.swift */; };
 		75634F2B2868C013008AD2E3 /* AppPreviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75634F2A2868C013008AD2E3 /* AppPreviewRow.swift */; };
 		75634F2F2868CA13008AD2E3 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75634F2E2868CA13008AD2E3 /* AppView.swift */; };
+		75634F312868CE22008AD2E3 /* TabTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75634F302868CE22008AD2E3 /* TabTitleView.swift */; };
+		75634F332868CFC4008AD2E3 /* MainAppPreviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75634F322868CFC4008AD2E3 /* MainAppPreviewCard.swift */; };
 		A58C5EAB72943807DAFE406E /* Pods_AppStoreClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5730615052CB35336B4F05 /* Pods_AppStoreClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		75634F282868BBB3008AD2E3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		75634F2A2868C013008AD2E3 /* AppPreviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreviewRow.swift; sourceTree = "<group>"; };
 		75634F2E2868CA13008AD2E3 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		75634F302868CE22008AD2E3 /* TabTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTitleView.swift; sourceTree = "<group>"; };
+		75634F322868CFC4008AD2E3 /* MainAppPreviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppPreviewCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 				75634F2D2868C9D7008AD2E3 /* TodayTab */,
 				75634F2C2868C9AA008AD2E3 /* AppTab */,
 				75634F2A2868C013008AD2E3 /* AppPreviewRow.swift */,
+				75634F302868CE22008AD2E3 /* TabTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				75634F2E2868CA13008AD2E3 /* AppView.swift */,
+				75634F322868CFC4008AD2E3 /* MainAppPreviewCard.swift */,
 			);
 			path = AppTab;
 			sourceTree = "<group>";
@@ -251,6 +257,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75634F18286898A3008AD2E3 /* ContentView.swift in Sources */,
+				75634F332868CFC4008AD2E3 /* MainAppPreviewCard.swift in Sources */,
+				75634F312868CE22008AD2E3 /* TabTitleView.swift in Sources */,
 				75634F2B2868C013008AD2E3 /* AppPreviewRow.swift in Sources */,
 				75634F16286898A3008AD2E3 /* AppStoreCloneApp.swift in Sources */,
 				75634F2F2868CA13008AD2E3 /* AppView.swift in Sources */,

@@ -9,8 +9,11 @@ import SwiftUI
 
 struct AppView: View {
     var body: some View {
-
-        AppPreviewRow()
+        ScrollView {
+            TabTitleView()
+            Divider()
+            AppPreviewRow()
+        }
     }
 }
 
