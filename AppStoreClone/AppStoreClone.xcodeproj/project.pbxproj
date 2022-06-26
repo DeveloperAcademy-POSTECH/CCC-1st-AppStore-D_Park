@@ -14,6 +14,7 @@
 		75634F2528689AC4008AD2E3 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 75634F2428689AC4008AD2E3 /* .swiftlint.yml */; };
 		75634F292868BBB3008AD2E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75634F282868BBB3008AD2E3 /* Constants.swift */; };
 		75634F2B2868C013008AD2E3 /* AppPreviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75634F2A2868C013008AD2E3 /* AppPreviewRow.swift */; };
+		75634F2F2868CA13008AD2E3 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75634F2E2868CA13008AD2E3 /* AppView.swift */; };
 		A58C5EAB72943807DAFE406E /* Pods_AppStoreClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5730615052CB35336B4F05 /* Pods_AppStoreClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		75634F2428689AC4008AD2E3 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		75634F282868BBB3008AD2E3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		75634F2A2868C013008AD2E3 /* AppPreviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreviewRow.swift; sourceTree = "<group>"; };
+		75634F2E2868CA13008AD2E3 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,8 @@
 		75634F262868BB9B008AD2E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				75634F2D2868C9D7008AD2E3 /* TodayTab */,
+				75634F2C2868C9AA008AD2E3 /* AppTab */,
 				75634F2A2868C013008AD2E3 /* AppPreviewRow.swift */,
 			);
 			path = View;
@@ -114,6 +118,21 @@
 				75634F282868BBB3008AD2E3 /* Constants.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		75634F2C2868C9AA008AD2E3 /* AppTab */ = {
+			isa = PBXGroup;
+			children = (
+				75634F2E2868CA13008AD2E3 /* AppView.swift */,
+			);
+			path = AppTab;
+			sourceTree = "<group>";
+		};
+		75634F2D2868C9D7008AD2E3 /* TodayTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TodayTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +253,7 @@
 				75634F18286898A3008AD2E3 /* ContentView.swift in Sources */,
 				75634F2B2868C013008AD2E3 /* AppPreviewRow.swift in Sources */,
 				75634F16286898A3008AD2E3 /* AppStoreCloneApp.swift in Sources */,
+				75634F2F2868CA13008AD2E3 /* AppView.swift in Sources */,
 				75634F292868BBB3008AD2E3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
