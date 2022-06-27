@@ -11,13 +11,15 @@ struct ProfileImageView: View {
     var size: CGFloat
 
     var body: some View {
-        AsyncImage(url: URL(string: "https://source.unsplash.com/random")) { image in
-            image.resizable()
-        } placeholder: {
-            ProgressView()
+        HStack {
+            AsyncImage(url: URL(string: "https://source.unsplash.com/random")) { image in
+                image.resizable()
+            } placeholder: {
+                ProgressView()
+            }
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+            .frame(width: size, height: size)
         }
-        .clipShape(RoundedRectangle(cornerRadius: 10))
-        .frame(width: size, height: size)
     }
 }
 

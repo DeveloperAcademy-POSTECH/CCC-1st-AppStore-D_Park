@@ -12,7 +12,8 @@ struct AppView: View {
         ScrollView {
             TabTitleView()
             Divider()
-            AppPreviewRow()
+            // 포함시키면 빌드가 안됨
+//            AppListHorizontalView(title: "인기앱")
         }
     }
 }
