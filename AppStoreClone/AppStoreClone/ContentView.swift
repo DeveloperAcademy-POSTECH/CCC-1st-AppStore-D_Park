@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var rankState = Rank()
+
     var body: some View {
         TabView {
               Text("Today Tab")
@@ -21,6 +23,7 @@ struct ContentView: View {
                   Text("Game")
                 }
             AppView()
+                .environmentObject(rankState)
                 .tabItem {
                 Image(systemName: "square.stack.3d.up.fill")
                 Text("App")
