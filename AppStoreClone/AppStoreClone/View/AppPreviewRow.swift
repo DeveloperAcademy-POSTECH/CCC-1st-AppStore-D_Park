@@ -35,7 +35,7 @@ struct AppPreviewRow: View {
                 .background(Color.yellow)
                 .clipShape(Capsule())
         }
-        .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 19))
+        .padding(.horizontal, 20)
     }
 }
 
