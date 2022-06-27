@@ -13,13 +13,7 @@ struct TabTitleView: View {
             Text("Title")
                 .font(.system(size: 32, weight: .semibold))
             Spacer()
-            AsyncImage(url: URL(string: "https://source.unsplash.com/random")) { image in
-                image.resizable()
-            } placeholder: {
-                ProgressView()
-            }
-            .clipShape(Circle())
-            .frame(width: 50, height: 50)
+            ProfileImageView(size: 50)
         }
         .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 19))
     }
