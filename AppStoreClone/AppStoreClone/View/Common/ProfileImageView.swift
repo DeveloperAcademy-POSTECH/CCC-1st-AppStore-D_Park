@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ProfileImageView: View {
     var size: CGFloat
+    var radius: CGFloat?
 
     var body: some View {
         HStack {
@@ -17,7 +18,7 @@ struct ProfileImageView: View {
             } placeholder: {
                 ProgressView()
             }
-            .clipShape(RoundedRectangle(cornerRadius: 10))
+            .clipShape(RoundedRectangle(cornerRadius: radius ?? 10))
             .frame(width: size, height: size)
         }
     }

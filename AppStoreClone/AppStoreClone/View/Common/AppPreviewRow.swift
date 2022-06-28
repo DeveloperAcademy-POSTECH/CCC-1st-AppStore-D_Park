@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AppPreviewRow: View {
-    @EnvironmentObject var rankState: Rank
+    @EnvironmentObject var rankState: AppData
     var rank: CGFloat?
     var isRankList: Bool?
 

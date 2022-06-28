@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var rankState = Rank()
+    @StateObject var rankState = AppData()
 
     var body: some View {
         TabView {
