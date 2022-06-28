@@ -18,6 +18,10 @@
 		75634F312868CE22008AD2E3 /* TabTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75634F302868CE22008AD2E3 /* TabTitleView.swift */; };
 		75634F332868CFC4008AD2E3 /* MainAppPreviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75634F322868CFC4008AD2E3 /* MainAppPreviewCard.swift */; };
 		75634F362869E446008AD2E3 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75634F352869E446008AD2E3 /* ProfileImageView.swift */; };
+		75B0E6E5286A4F9500357CA0 /* AppListHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0E6E4286A4F9500357CA0 /* AppListHorizontalView.swift */; };
+		75B0E6E7286A4FBE00357CA0 /* AppPreviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0E6E6286A4FBE00357CA0 /* AppPreviewList.swift */; };
+		75B0E6E9286A505000357CA0 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0E6E8286A505000357CA0 /* AppData.swift */; };
+		75B0E6EB286A780800357CA0 /* TodayMainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0E6EA286A780800357CA0 /* TodayMainCardView.swift */; };
 		A58C5EAB72943807DAFE406E /* Pods_AppStoreClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5730615052CB35336B4F05 /* Pods_AppStoreClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +41,10 @@
 		75634F302868CE22008AD2E3 /* TabTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTitleView.swift; sourceTree = "<group>"; };
 		75634F322868CFC4008AD2E3 /* MainAppPreviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppPreviewCard.swift; sourceTree = "<group>"; };
 		75634F352869E446008AD2E3 /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		75B0E6E4286A4F9500357CA0 /* AppListHorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListHorizontalView.swift; sourceTree = "<group>"; };
+		75B0E6E6286A4FBE00357CA0 /* AppPreviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreviewList.swift; sourceTree = "<group>"; };
+		75B0E6E8286A505000357CA0 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		75B0E6EA286A780800357CA0 /* TodayMainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayMainCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				75634F282868BBB3008AD2E3 /* Constants.swift */,
+				75B0E6E8286A505000357CA0 /* AppData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -138,6 +147,7 @@
 		75634F2D2868C9D7008AD2E3 /* TodayTab */ = {
 			isa = PBXGroup;
 			children = (
+				75B0E6EA286A780800357CA0 /* TodayMainCardView.swift */,
 			);
 			path = TodayTab;
 			sourceTree = "<group>";
@@ -146,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				75634F2A2868C013008AD2E3 /* AppPreviewRow.swift */,
+				75B0E6E4286A4F9500357CA0 /* AppListHorizontalView.swift */,
+				75B0E6E6286A4FBE00357CA0 /* AppPreviewList.swift */,
 				75634F302868CE22008AD2E3 /* TabTitleView.swift */,
 				75634F352869E446008AD2E3 /* ProfileImageView.swift */,
 			);
@@ -268,8 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				75634F362869E446008AD2E3 /* ProfileImageView.swift in Sources */,
+				75B0E6EB286A780800357CA0 /* TodayMainCardView.swift in Sources */,
+				75B0E6E9286A505000357CA0 /* AppData.swift in Sources */,
 				75634F18286898A3008AD2E3 /* ContentView.swift in Sources */,
+				75B0E6E5286A4F9500357CA0 /* AppListHorizontalView.swift in Sources */,
 				75634F332868CFC4008AD2E3 /* MainAppPreviewCard.swift in Sources */,
+				75B0E6E7286A4FBE00357CA0 /* AppPreviewList.swift in Sources */,
 				75634F312868CE22008AD2E3 /* TabTitleView.swift in Sources */,
 				75634F2B2868C013008AD2E3 /* AppPreviewRow.swift in Sources */,
 				75634F16286898A3008AD2E3 /* AppStoreCloneApp.swift in Sources */,
